@@ -1,0 +1,38 @@
+{
+  "name": "assignalign",
+  "displayName": "assignAlign",
+  "description": "Align assignment operators",
+  "version": "0.0.1",
+  "publisher": "AndrewHall",
+  "engines": {
+    "vscode": "^0.10.10"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.assignAlign"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "commands": [{
+      "command": "extension.assignAlign",
+      "title": "Assign Align"
+    }],
+    "keybindings": [{
+      "command": "extension.assignAlign",
+      "key": "ctrl+alt+]",
+      "mac": "cmd+alt+]",
+      "when": "editorTextFocus"
+    }]
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "vscode": "^0.11.0"
+  },
+  "dependencies": {
+    "lodash": "^4.7.0"
+  }
+}
