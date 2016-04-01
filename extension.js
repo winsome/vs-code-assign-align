@@ -46,7 +46,7 @@ function activate(context) {
         var newLines = _.map(lines, function(line) {
             return line.text.replace(exp, function(match, p1, offset, str) {
                 var replacement = p1 + ' =';
-                maxAssignmentIndex = Math.max(replacement.length - 1, maxAssignmentIndex);
+                maxAssignmentIndex = Math.max(offset + replacement.length - 1, maxAssignmentIndex);
                 return replacement;
             });
         });
