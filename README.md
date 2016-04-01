@@ -1,13 +1,26 @@
 # README
-## This is the README for your extension "assignalign"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+## Install
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+Run `ext install assignalign` from the Command Palette
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Usage
 
-**Enjoy!**
+Windows & Linux: `ctrl+alt+]`
+
+Mac: `cmd+alt+]`
+
+## Changelog
+### Version 0.0.1
+
++ Adds support for aligning assignment operations that use `=`
+
+## Source
+
+[Github]
+
+## License
+
+[MIT]
+
+[Github]: https://github.com/winsome/vscode-assign-align
+[MIT]: https://github.com/winsome/vscode-assign-align/blob/master/LICENSE
